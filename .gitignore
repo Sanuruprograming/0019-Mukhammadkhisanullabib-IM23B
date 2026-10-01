@@ -1,0 +1,19 @@
+# Mengabaikan Virtual Environment
+venv/
+env/
+ENV/
+
+# Mengabaikan File Model Berat
+models/
+*.keras
+*.h5
+*.pth
+*.onnx
+
+# Mengabaikan File Cache & System
+__pycache__/
+*.dll
+*.pyd
+*.exe
+.vscode/
+.idea/
